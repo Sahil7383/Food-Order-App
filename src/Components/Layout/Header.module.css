@@ -27,10 +27,9 @@
   object-fit: cover;
   transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 }
-@media (max-width: 600px) {
-  .icon {
-    width: 2.35rem;
-    height: 2.35rem;
-    padding-top: 5px;
+@media (max-width : 630px) {
+  .header {
+    height: 7rem; 
+    justify-content: space-evenly;
   }
 }
