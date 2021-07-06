@@ -57,3 +57,11 @@
     transform: scale(1);
   }
 }
+
+@media (max-width: 600px) {
+  .icon {
+    width: 2.35rem;
+    height: 2.35rem;
+    padding-top: 5px;
+  }
+}
